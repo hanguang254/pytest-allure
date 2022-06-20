@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_pinmin",
+    "children" : [ {
+      "name" : "Test_pinmin",
+      "children" : [ {
+        "name" : "test_pinmin",
+        "uid" : "9418cf965fb0ff43",
+        "parentUid" : "647c34f599d81531d747454bd99cd147",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655445921464,
+          "stop" : 1655445939483,
+          "duration" : 18019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "647c34f599d81531d747454bd99cd147"
+    } ],
+    "uid" : "a6034f65bd67eb779dca2c439db6b2d7"
+  } ]
+}

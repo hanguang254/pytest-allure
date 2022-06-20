@@ -1,0 +1,184 @@
+{
+  "uid" : "9418cf965fb0ff43",
+  "name" : "test_pinmin",
+  "fullName" : "test_pinmin.Test_pinmin#test_pinmin",
+  "historyId" : "628f1706fffb099d65b2933661793522",
+  "time" : {
+    "start" : 1655445921464,
+    "stop" : 1655445939483,
+    "duration" : 18019
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1655445920236,
+      "stop" : 1655445921462,
+      "duration" : 1226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_xunit_setup_class_fixture_Test_pinmin",
+    "time" : {
+      "start" : 1655445921462,
+      "stop" : 1655445921463,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "选择品名设置",
+      "time" : {
+        "start" : 1655445921464,
+        "stop" : 1655445929659,
+        "duration" : 8195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "新增品名",
+      "time" : {
+        "start" : 1655445929659,
+        "stop" : 1655445935195,
+        "duration" : 5536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "作废单据",
+      "time" : {
+        "start" : 1655445935195,
+        "stop" : 1655445939482,
+        "duration" : 4287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "38067454472e83bc",
+      "name" : "log",
+      "source" : "38067454472e83bc.txt",
+      "type" : "text/plain",
+      "size" : 309
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_pinmin::0",
+    "time" : {
+      "start" : 1655445939483,
+      "stop" : 1655445939483,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1655445939484,
+      "stop" : 1655445939535,
+      "duration" : 51
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "品名新增作废"
+  }, {
+    "name" : "feature",
+    "value" : "品名流程"
+  }, {
+    "name" : "suite",
+    "value" : "test_pinmin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_pinmin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RECFETE7"
+  }, {
+    "name" : "thread",
+    "value" : "22012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pinmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9418cf965fb0ff43.json",
+  "parameterValues" : [ ]
+}

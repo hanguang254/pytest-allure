@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-RECFETE7",
+    "children" : [ {
+      "name" : "22012-MainThread",
+      "children" : [ {
+        "name" : "test_pinmin",
+        "uid" : "9418cf965fb0ff43",
+        "parentUid" : "6527c9c7c1edded88c492f3fa73156b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655445921464,
+          "stop" : 1655445939483,
+          "duration" : 18019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6527c9c7c1edded88c492f3fa73156b0"
+    } ],
+    "uid" : "d70674a7b04196ffee3a5d1d90e1299c"
+  } ]
+}

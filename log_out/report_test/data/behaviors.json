@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "品名流程",
+    "children" : [ {
+      "name" : "品名新增作废",
+      "children" : [ {
+        "name" : "test_pinmin",
+        "uid" : "9418cf965fb0ff43",
+        "parentUid" : "7aa6287114d1c6ae5d63ea69eb0d0532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655445921464,
+          "stop" : 1655445939483,
+          "duration" : 18019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7aa6287114d1c6ae5d63ea69eb0d0532"
+    } ],
+    "uid" : "17f8a9c9a69caafa85f8484d0e55f894"
+  } ]
+}

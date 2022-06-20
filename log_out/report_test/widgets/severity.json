@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9418cf965fb0ff43",
+  "name" : "test_pinmin",
+  "time" : {
+    "start" : 1655445921464,
+    "stop" : 1655445939483,
+    "duration" : 18019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

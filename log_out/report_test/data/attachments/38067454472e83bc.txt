@@ -1,0 +1,5 @@
+INFO     root:test_pinmin.py:25 引用全局用例登录
+INFO     root:test_pinmin.py:26 点击品名新增按钮
+INFO     root:test_pinmin.py:30 保存采购，刷新单据
+INFO     root:test_pinmin.py:32 选择新增品名作废
+INFO     root:test_pinmin.py:36 保存采购已截图，存放log_out/img_test
