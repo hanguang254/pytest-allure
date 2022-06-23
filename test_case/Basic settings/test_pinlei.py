@@ -40,7 +40,7 @@ class Test_pinlei:
 if __name__ == '__main__':
     # pytest.main(["test_pinlei.py","-sv"])
 
-    result_dir = "../log_out/json"  # json存储位置
+    result_dir = "../../log_out/json"  # json存储位置
     report_dir = "../log_out/report_pinlei_test"  # 报告存储位置
     pytest.main(["-sv", "--alluredir=%s" % result_dir, "--clean-alluredir", "test_pinlei.py"])  # 测试用例文件
     os.system("allure generate --clean %s -o %s" % (result_dir, report_dir))  # allure报告的输出

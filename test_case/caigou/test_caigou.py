@@ -57,7 +57,7 @@ class Test_01:
 
 if __name__ == '__main__':
         # pytest.main(["test_caigou.py","-sv"])
-        result_dir = "../log_out/json"  # json存储位置
-        report_dir = "../log_out/report_test"  # 报告存储位置
+        result_dir = "../../log_out/json"  # json存储位置
+        report_dir = "../../log_out/report_test"  # 报告存储位置
         pytest.main(["-sv", "--alluredir=%s" % result_dir, "--clean-alluredir", "test_caigou.py"])     #测试用例文件
         os.system("allure generate --clean %s -o %s" % (result_dir, report_dir))   #allure报告的输出
