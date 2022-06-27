@@ -10,5 +10,3 @@ list=[34,234,54,23]
 
 # print(sorted(list)) #列表排序
 
-
-for i in

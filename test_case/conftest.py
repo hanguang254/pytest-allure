@@ -12,6 +12,6 @@ def login():                            #全局用例的登录方法 ，直接�
     login.password.send_keys(*login_local.uesr["password"])  #输入密码
     login.submit.click()                #点击登录
 
-    yield   #后置条件
-    login.driver.close()  #关闭窗口
+    # yield   #后置条件
+    # login.driver.close()  #关闭窗口
 
