@@ -1,7 +1,6 @@
 
 import logging
 import os
-
 from log_out import get_local
 import time
 

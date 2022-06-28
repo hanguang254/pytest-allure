@@ -16,7 +16,7 @@ class Test_pinlei:
         self.log=basepage.BasePage().get_log()
         # self.sleep=sleep(1)
 
-    def teardwon_class(self):
+    def teardown_class(self):
         self.log.info("测试完成")
 
     @allure.story("品类新增作废")
